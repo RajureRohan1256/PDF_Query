@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 import streamlit as st
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 os.environ["SERPAPI_API_KEY"] = ""
 
 st.title('Welcome to Document GPT')
