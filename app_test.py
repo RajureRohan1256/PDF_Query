@@ -16,7 +16,7 @@ st.write(
    understand and generate human-like text based on the input they receive.
   '''
 )
-file_uploaded = st.file_uploader('Upload you PDF Here',type=['str'])
+file_uploaded = st.file_uploader('Upload you PDF Here',type=None)
 
 st.markdown('- You can ignore this Error!! - after the Upload code will run by itself')
 
